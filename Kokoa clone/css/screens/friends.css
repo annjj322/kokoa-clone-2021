@@ -1,0 +1,11 @@
+.friends-display {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fafafa;
+    padding: 10px 0;
+}
+
+span~img {
+    margin-left: 10px;
+}
