@@ -6,9 +6,6 @@
     padding: 10px 0;
 }
 
-span~img {
-    margin-left: 6px;
-}
 
 .friends-display span {
     font-size: 18px;

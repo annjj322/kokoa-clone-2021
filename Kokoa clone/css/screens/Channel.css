@@ -5,11 +5,22 @@
     padding: 15px 0;
     margin: 0 var(--horizontal);
     border-top: 1px solid rgba(0, 0, 0, 0.1);
+    justify-content: space-between;
 }
 
 .user-component__text__channel {
     display: flex;
-    align-items: ~
+    align-items: center;
+    width: 100%;
     justify-content: space-between;
+    margin-right: 10px;
+}
+
+.screen-component__channel__bar {
+    margin-right: 10px;
+}
+
+.user-component__more {
+    color :var(--gray);
 }
 
