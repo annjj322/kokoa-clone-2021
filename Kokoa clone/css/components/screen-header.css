@@ -1,6 +1,6 @@
 .screen-header {
     display: flex;
-    padding: 25px;
+    padding: var(--horizontal);
     justify-content: space-between;
     font-size: 32px;
     font-weight: 600;
