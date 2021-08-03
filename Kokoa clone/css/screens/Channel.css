@@ -1,0 +1,15 @@
+.screen-component__channel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--gray);
+    padding: 15px 0;
+    margin: 0 var(--horizontal);
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.user-component__text__channel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

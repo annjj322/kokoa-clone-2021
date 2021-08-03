@@ -8,8 +8,7 @@
     width: 70px;
     height: 70px;
     border-radius: 25%;
-    margin-right: 20px;
-    padding: 0 var(--horizontal);
+    margin: 20px var(--horizontal);
 }
 
 .user-component__title {
@@ -33,3 +32,4 @@
     width: 55px;
     height: 55px;
 }
+
