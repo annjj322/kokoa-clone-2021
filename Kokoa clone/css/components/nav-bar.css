@@ -35,3 +35,6 @@
     border-radius: 50%;
 }
 
+.screen-header__icons__img {
+    position: relative;
+}
