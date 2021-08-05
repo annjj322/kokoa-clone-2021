@@ -1,0 +1,7 @@
+.main-screen {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: var(--horizontal);
+}
+

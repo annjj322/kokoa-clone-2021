@@ -16,8 +16,13 @@
     margin-right: 10px;
 }
 
-
+.user-component__column__time,
 .user-component__more {
     color :var(--gray);
 }
 
+.align-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
