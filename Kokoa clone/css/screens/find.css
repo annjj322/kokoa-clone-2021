@@ -3,15 +3,14 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-    padding-bottom: 15px;
-    margin-left: var(--horizontal);
 }
 
 .find-icons__icon {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 90px;
+    text-align: center;
 }
 
 .find-icons__icon i {
@@ -20,4 +19,23 @@
 
 .find-icons__icon span {
     margin-top: 18px;
+}
+
+.recommended-friends {
+    border-top: var(--main-border);
+    border-bottom: var(--main-border);
+    margin: 25px var(--horizontal);
+    padding: 25px 0;
+}
+
+.recommended-friends__title {
+    font-size: 14px;
+    color: var(--gray);
+}
+
+.recommended-friends span {
+    display: block;
+    margin: 100px 0;
+    text-align: center;
+    color: var(--gray);
 }

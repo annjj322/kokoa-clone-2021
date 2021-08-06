@@ -7,13 +7,11 @@
     align-items: center;
 }
 
-.screen-header__icons__img {
-    margin-left: 10px;
-}
-
 .main-screen {
-    display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-right: var(--horizontal);
+}
+
+.display__flex {
+    display: flex;
 }

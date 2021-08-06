@@ -5,7 +5,7 @@
     color: var(--gray);
     padding: 15px 0;
     margin: 0 var(--horizontal);
-    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-top: var(--main-border);
 }
 
 .user-component__text__channel {
@@ -25,4 +25,5 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-right: var(--horizontal);
 }
