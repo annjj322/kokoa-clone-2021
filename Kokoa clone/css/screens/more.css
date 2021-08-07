@@ -1,0 +1,10 @@
+.comment-alt__icons__jc {
+    display: flex;
+    padding-right: var(--horizontal);
+}
+
+.user-component__more__subtitle {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
