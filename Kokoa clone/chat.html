@@ -10,7 +10,7 @@
     </style>
 </head>
 <body id="chat-screen">
-    <div class="status-bar">
+    <div class="status-bar chat-background">
         <div class="status-bar__column">
             <span>No Service</span>
             <i class="fas fa-wifi"></i>
@@ -32,7 +32,7 @@
             </a>
         </div>
         <div class="alt-header__column">
-            <h1 class="alt-header__title">Junje Ahn</h1>
+            <h1 class="alt-header__title">안준제</h1>
         </div>
         <div class="alt-header__column">
             <i class="fas fa-search fa-2x"></i>
@@ -40,9 +40,46 @@
         </div>
     </header>
 
-    <main class="chat-screen-time">
-        <div>2021년 08월 15일 19시 30분</div>
+    <main>
+        <div class="chat-screen-time">
+            <div>2021년 08월 15일</div>
+        </div>
+
+        <div class="chat-profile">
+            <div class="chat-profile__img">
+                <img src="https://cdn.pixabay.com/photo/2016/12/09/09/52/girl-1894125_960_720.jpg"/>
+            </div>
+            <div class="chat-profile__title">
+                <div class="chat-profile__title__name">안준제</div>
+                <div class="chat-profile__title__message">
+                    <div class="chat-profile__title__text">Hi! nice to meet you</div>
+                    <div class="chat-profile__title__time">11:31</div>
+                </div>
+            </div>
+        </div>
+
+            <div class="chat-profile__title  my-profile__title">
+                <div class="chat-profile__title__message my-profile__title__message">
+                    <div class="chat-profile__title__text my-profile__title__text">Hi! nice to meet you too :)</div>
+                    <div class="chat-profile__title__time my-profile__title__time">11:47</div>
+                </div>
+            </div>
     </main>
+
+    <form>
+        <div class="text-bar">
+            <div class="text-bar__more">
+                <i class="far fa-plus-square"></i>
+            </div>
+            <div class="text-bar__text">
+                <input type="text" placeholder="Write a message..."/>
+                <i class="far fa-smile"></i>
+                <button>
+                    <i class="far fa-paper-plane"></i>
+                </button>
+            </div>
+        </div>
+    </form>
         
     
 

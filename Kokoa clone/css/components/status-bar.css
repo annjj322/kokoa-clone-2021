@@ -9,6 +9,11 @@
     justify-content: space-between;
     box-sizing: border-box;
     top: 0;
+    z-index: 2;
+}
+
+.chat-background {
+    background-color: #abc1d1;
 }
 
 .status-bar__column:first-child span{
