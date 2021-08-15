@@ -1,3 +1,28 @@
 #chat-screen {
     background-color: #abc1d1;
+    height: 20000vh;
 }
+
+#chat-screen .alt-header {
+    position: fixed;
+    width: 100%;
+    box-sizing: border-box;
+    top: 10px;
+}
+
+.chat-screen-time {
+    margin-top: 120px;
+    display: flex;
+    justify-content:center;
+}
+
+.chat-screen-time div {
+    display: flex;
+    justify-content: center;
+    width: 250px;
+    background-color: rgb(170, 170, 170);
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+}
+

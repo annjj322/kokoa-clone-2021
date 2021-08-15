@@ -2,9 +2,13 @@
     width: 33%;
 }
 .status-bar {
+    width: 100%;
+    position: fixed;
     padding: 5px 3px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    top: 0;
 }
 
 .status-bar__column:first-child span{
