@@ -22,7 +22,20 @@
     position: absolute;
     left: 20px;
     bottom: 20px;
+    animation: redbadganimation 2s ease-in-out infinite;
     }
+
+@keyframes redbadganimation{
+    0% {
+        transform: none;
+    }
+    50%{
+        transform: translateY(-5px);
+    }
+    100% {
+        transform: none;
+    }
+}
 
 .nav__notification {
     width: 5px;

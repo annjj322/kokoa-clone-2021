@@ -11,3 +11,31 @@
     font-size: 18px;
     font-weight: bold;
 }
+
+@keyframes erasefirstscreen {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+.first-screen {
+    background-color: orange;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    animation: erasefirstscreen 0.7s ease-in-out forwards;
+    animation-delay: 1s;
+}
+
+.first-screen img {
+    width: 100px;
+    height: 100px;
+}

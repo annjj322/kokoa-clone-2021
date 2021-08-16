@@ -12,6 +12,7 @@
 @import "components/badge.css";
 @import "components/icons.css";
 @import "components/alt-screen-header.css";
+@import "components/no-mobile.css";
 
 /* Screens */
 @import "screens/login.css";
@@ -26,3 +27,26 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
+
+@keyframes IconBoom {
+    0% {
+        transform: none;
+    }
+    50% {
+        transform: scale(1.1)
+    }
+    100% {
+        transform: none;
+    }
+}
+
+i:hover,
+img:hover {
+    will-change: transform;
+    animation: IconBoom 1s ease-in-out;
+}
+
+
+.status-bar i {
+    animation: none;
+}
